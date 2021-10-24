@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Dietary Form Page</title>
+		<link href="css/StyleSheet.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="navbar">
+			<img src="images/NCFLOGO.png" alt= "NCF LOGO">
+			<a href="aboutPage.html">About</a>
+			<a href="serviceMetz.html">Services</a>
+			<a href="defaultMenu.html">Menus and Nutrition</a>
+			<a  href="index.html">Home</a>
+		</div>
+<!--- This page is kinda horrible. How javascript relates to forms isn't something I'm super great with so I idk if this would work even if we had a back end. It's the most basic set of selector form I could do-->
+		<div class="centercontent">
+			<form action="menu.html" method="get">
+				<fieldset>
+					<legend>Dietary Restictions</legend>
+					<label>Name: <input type="text" name="text"/></label><br/>
+					<label>NCF Email:<input type="email" name="email"/></label>
+					<br>
+					<br>
+					What are your dietary preferences?
+					<input type="checkbox" name= "diet" value="vegetarian"/> Vegetarian
+					<input type="checkbox" name= "diet" value="vegan"/>
+					Vegan
+					<input type="checkbox" name= "diet" value="halal"/>
+					Halal
+					<input type="checkbox" name= "diet" value="glutenFree"/>
+					Gluten-Free
+					<input type="checkbox" name= "diet" value="kosher"/>
+					Kosher
+					<br><br>
+					<legend>Allergies:</legend>
+					<br>What are your allergens?
+					<input type="checkbox" name= "allergy" value="fish"/>
+					Fish
+					<input type="checkbox" name= "allergy" value="shellfish"/>
+					Shellfish
+					<input type="checkbox" name= "allergy" value="mollusks"/>
+					Mollusks
+					<input type="checkbox" name= "allergy" value="treeNuts"/>
+					Tree Nuts
+					<input type="checkbox" name= "allergy" value="peanuts"/>
+					Peanuts
+					<br>
+					<input type="checkbox" name= "allergy" value="celery"/>
+					Celery
+					<input type="checkbox" name= "allergy" value="mustard"/>
+					Mustard
+					<input type="checkbox" name= "allergy" value="dairy"/>
+					Dairy
+					<input type="checkbox" name= "allergy" value="eggs"/>
+					Eggs
+					<input type="checkbox" name= "allergy" value="sesame"/>
+					Sesame
+					<input type="checkbox" name= "allergy" value="soy"/>
+					Soy
+					<input type="checkbox" name= "allergy" value="wheat"/>
+					Wheat
+					<input type="checkbox" name= "allergy" value="sulphites"/>
+					Sulphites
+					<input type="checkbox" name= "allergy" value="lupins"/>
+					Lupins
+					<input type="checkbox" name= "allergy" value="other"/>
+					Other
+					<br>
+					If you chose other, specify:<input type="text" name="otherSpecify">
+					<input type="totalSubmit" value="Submit">
+				</fieldset>
+				</form>
+			</div>
+
+		<div class="footer">
+			<p>Bimpas Zone Metz Rebuild Project</p>
+		</div>
+	</body>
+</html>

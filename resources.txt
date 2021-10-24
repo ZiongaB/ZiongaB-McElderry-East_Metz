@@ -1,0 +1,19 @@
+This is a list of resources we used regarding code and images
+
+Code:
+-When it came to the code we did use some snippets and ideas from both w3 schools
+and the textbook. (Zach ended up using some snippets from the previous exam code)
+
+https://www.w3schools.com/howto/howto_css_button_on_image.asp
+https://www.w3schools.com/js/js_validation.asp
+https://www.w3schools.com/css/css_navbar_vertical.asp
+
+This was used as well for making the facebook iframe work
+https://developers.facebook.com/docs/plugins/page-plugin/
+
+
+Images: 
+
+-Food images came from a mix of photos taken by other students a number come from google images that are CCL (Can't find the original sources anymore but they were CCL I believe)
+-Various imagescame from the Metz or NCF site. (EX: Logos,NCF Pantry Image, Catering Image)
+-One image came from https://pixahive.com/photo/feedback-with-emoji/

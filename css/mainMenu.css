@@ -1,0 +1,298 @@
+body{
+  background-color: #383D3B; /* can workl to set up visuals, make an interior element and add CSS properties as appropriate */
+  max-width: 1920px;
+  /* min-width: 1920px; */
+  max-height: 1080px;
+  /* min-height: 1080px; */
+}
+p{
+  text-align: center;
+}
+h1{
+  /* text-decoration: none; */
+}
+h2{
+  text-align: center;
+  
+}
+h3{
+  text-align: center;
+}
+img{
+  
+}
+
+
+/* these list customizations handle the Menu's navbar */
+  header{
+    /* position: relative; */
+    display: flex;
+    background-color: #383D3B; 
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  #navBarUList{
+    /*position: relative;
+    border: 5px solid rgb(0, 0, 145); debug code/visualization
+    margin: 5%;
+    overflow: hidden; */
+    display: flex;
+    width: 70%;
+    border-radius: 5px;
+    list-style-type: none;
+    padding-right: 3%;
+    justify-content: center;
+    align-items: center;
+  }
+  .navBarImageContainer{
+    /* position: relative; */
+    /* display: inline-block; */
+    background-color: #EEE5E9;
+    /* border: 3px solid rgb(0, 0, 145); debug code/visualization */
+    width: 100%;
+    height: auto;
+    border: 4px solid #707070;
+    padding: 1%;
+    border-radius: 45px;
+    /* padding: 5px; */
+    /* margin: 5%; */
+    /* line-height: 50%; */
+  }
+  .navBarButtonContainer{
+    width: 100%;
+    height: auto;
+    padding: 0.5%;
+  }
+  .navBarImageContainer img{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+  }
+  .navBarImageContainer:hover{
+    color: rgb(0, 107, 107);
+    background-color: #ccc5c8;
+  }
+  #filterButton{
+    color: #ffffff;
+    background-color: #475952;
+    /* font-size: 48px; */
+    border: 3px solid #707070;
+    border-radius: 3px;
+    margin: 0% 3%;
+    cursor: pointer;
+  }
+  #filterButton:hover{
+    color: #ffffff;
+    background-color: #37443f;
+  }
+/* ---------------------------------------------------------------------- */
+  /* 
+  replacement for background property instead of constructing side bar objects 
+  */
+  .forcedbackground{
+    position: relative;
+    display: flex;
+    left: 5%;
+    height: 100%;
+    width: 90%;
+    background-color: #3A73C1;
+    border: 5px #383d3b;
+    border-radius: 60px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border-top-left-radius: 0px;
+    border-top-right-radius: 0px; */
+    /* padding-top: 10px; When making more elements, keep this in mind */
+    /* overflow: auto; */
+  }
+  /* -------------------------------------------------------------------- */
+
+  /* container for the day of the week selectors */
+  .weekContainer{ 
+    position: relative;
+    /* left: 35%; */
+    /* flex-basis: 14.285%;  */
+    display: flex;
+    height: 30%;
+    width: 70%;
+    margin-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: #EEE5E9; /* just to visualize */
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* elements contained within the weekContainer class and associated element */
+  .dayoftheweekList{
+    /* position: 
+    relative; */
+    /* flex-basis: 4.571%;
+    border-left: 3px #001cb9;
+    border-style: solid; */
+    /* margin-right: 3%; */
+    /* padding-left: 0%; */
+    display: flex;
+    color: #692879;
+    width: inherit;
+    height: inherit;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .dayoftheweekList li{
+    /* padding-right: 5%; */
+    padding-right: 4.29%;
+    padding-left: 4.29%;
+    cursor: pointer;
+    /* width: 14.285%; */
+  }
+  .dayoftheweekList li:hover{
+    background-color: #5c53573d;
+    border-radius: 30px;
+  }
+  .dayoftheweekList li h3{
+    font-size: 25px;
+  }
+
+/* -------------------------------------------------------- */
+
+  .menuContainer{
+    /* position: relative; 
+    height: 80%;
+    width: 60%;
+    left: 20%; */ 
+    display: flex;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    /* background-color:darkgoldenrod; 
+    used for visualizing the area of the box object, should not be uncommented */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+  }
+  .childMenu{
+    /* position: relative; 
+    height: 30%;
+    width: 80%; */
+    display: flex;
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color:#EEE5E9;
+    border: 1px #707070;
+    border-radius: 45px;
+    justify-content: center;
+    align-items: center;
+    /* overflow-y: scroll; */
+    overflow-x: visible;
+  }
+  .childMenuItem{
+    /* 
+    position: relative; 
+    margin-left: 1%; 
+    margin-right: 1%; 
+    */
+    margin: 1%;
+    padding: auto;
+  }
+  .childMenuItem img{
+    width: 100%;
+    /* border: 5px inset #707070; */
+    border-radius: 5px;
+  }
+  .childMenuItem p{
+    text-align: center;
+    width: fit-content;
+  }
+/* ---------------------------------------- */
+
+#allergyFilterWithDropdown-Container{
+  position: relative;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  height: 40%;
+  width: 80%;
+  padding-right: 0.2%;
+  padding-left: 0.2%;
+  padding-top: 0%;
+  background-color: #729DBE;
+  border-radius: 45px;
+  /* flex: 1 1; */
+  overflow: visible;
+}
+.filterButton-Container{
+  position: relative;
+  display: flex;
+  height: 30%;
+  margin-top: 3%;
+  justify-content: center;
+  align-items: center;
+}
+#generalFilterOptions-Container{
+  /* display: flex; */
+  position: relative;
+  left: 10%;
+  flex-wrap: nowrap;
+  height: 30%;
+  width: 80%; 
+  justify-content: center;
+  align-items: center;
+  /* background-color: #C4C4C4; */
+}
+#specificFilterOptionsContainer{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.filterSelector{
+  display: block;
+  width: 50%;
+  height: 50%;
+  /* padding-bottom: 10%; */
+  border-radius: 50px;
+  border: 5px solid #cfdcec;
+  /* overflow: hidden; */
+  
+  background: #4679BD; 
+  box-shadow: 0 0 3px gray;
+  margin: 0.25%;
+  cursor: pointer;
+}
+.filterSelector p{
+  position: relative;
+  text-align: center;
+  /* transform: translate(0, 150%); */
+  /* top: 10%; */
+}
+.filterSelector:hover{
+  background:#30588e;
+}
+.filterCloser{
+ display: block;
+ width: 20%;
+ height: auto;
+ margin: 1%;
+ border-radius: 30px;
+}
+a .filterCloser{
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 1%;
+  border-radius: 30px;
+
+}
+#secondFilterRow{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#thirdFilterRow{
+  display: flex;
+}

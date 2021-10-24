@@ -1,0 +1,392 @@
+/* My css is way too long and a lot of stuff  regarding certain classes
+could be combined but that would take me a lot more time that I dont have
+so sorry for the length of this  file lol*/
+
+
+/* most of what's in this section is self ecplanatory, It's the styling
+for the basic elements including backgrounfd the most basic div level*/
+body{
+	width: 100%;
+	height: 95%;
+	margin: 0 auto;
+	margin-top: 5%;
+	background-color: #3A73C1;}
+
+div{
+	background-color: #EEE5E9;
+	width: 90%;
+	/*padding: 1em;*/
+	margin: 0 auto;
+	border: 0.25em solid #383D3B;
+	overflow: auto;
+}
+
+h1{
+	font-family: "Georgia", serif;
+	text-align: center;
+	width: 100%;
+}
+
+h2{
+	font-family: "Georgia", serif;
+	text-align: center;
+	width: 100%;
+}
+
+h3{
+	font-family: "Georgia", serif;
+	text-align: center;
+	width: 100%;
+}
+
+p{
+	font-family: "Georgia", serif;
+	text-align: center;
+}
+
+li{
+	display: inline;
+	vertical-align: center;
+	text-align: center;
+
+}
+
+table {
+	font-family: "Georgia", serif;
+	width: 100%;
+	vertical-align: middle;
+	text-align: center;
+}
+
+td, th, tr {
+	border: 0.25em solid #383D3B;
+	text-align: center;
+	padding: 1em;
+}
+
+img{
+	overflow: auto;
+}
+
+/* Ok so I won't lie idk if there's any of this class of element left
+anywhere in the html but I'm not gonna delete it out of fear*/
+
+.middleimage{
+	text-align: center;
+	vertical-align: middle;
+	padding: 0;
+}
+
+/*  What we have here is a lot of color/styling 
+for different div classes and elements of those subclasses*/
+
+.altcolor{
+	background-color: #383D3B ;
+	color:#EEE5E9;
+	border: 0.25em solid #383D3B;
+	text-align: center;
+}
+
+.altcolor td, th{
+	border: 0.25em solid #EEE5E9;
+	text-align: center;
+	padding: 1em;
+	margin: 0 auto;
+}
+
+.altcolor h3{
+	color: #EEE5E9;
+	font-family: "Georgia", serif;
+	text-align: center;
+	width: 100%;
+}
+
+/* This section has the styling for the styling of the navbar div element
+regarding the nav  including how it stays fixed when scrolling*/
+
+.navbar {
+	overflow: hidden;
+	background-color: #EEE5E9;
+	position: fixed; 
+	z-index: 100;
+	top: 0; 
+	width: 100%; 
+	border-bottom: 0.25em solid #383D3B ;
+}
+
+.navbar img {
+	float: left;
+	padding-top: 0.25em;
+	padding-left: 0.5em;
+	padding-bottom: 0.25em;
+}
+
+.navbar a {
+	font-family: "Georgia", serif;
+	float: right;
+	display: block;
+	background-color: #7C7C7C;
+	color: black;
+	text-align: center;
+	padding-top: 1em ;
+	padding-right: 1em ;
+	padding-left: 1em ;
+	padding-bottom: 1.25em;
+	border-top: 0.25em solid #383D3B;
+	border-left: 0.25em solid #383D3B ;
+	border-right: 0.25em solid #383D3B ;
+	text-decoration: none;
+}
+
+
+.navbar a:hover {
+	background: #383D3B;
+	color: #EEE5E9;
+	border-top: 0.25em solid #383D3B;
+	border-left: 0.25em solid #383D3B ;
+	border-right: 0.25em solid #383D3B ;
+}
+
+/* yeah the footer styling doesn't need much explaining*/
+
+.footer {
+	background-color: #383D3B; 
+	color: #EEE5E9 ;
+	text-align: center;
+	padding: 0.5em;
+	width: 100%;
+}
+
+/* So here we have a lot of the elements that could probably be combined 
+to save space but I don't have the time to look through every instance 
+of redundancy here. The code here is  about the container class of div and how I use it 
+in order to define where the button elements are in that section of the page.
+It also allows for flexible resizing (which isn't perfect)*/
+
+.container {
+	position: relative;
+	width: 100%;
+	padding: 0 ;
+}
+
+.container2 {
+	position: relative;
+	width: 100%;
+	padding: 0 ;
+}
+
+/* Make the image responsive */
+.container img {
+	width: 100%;
+	height: 10%;
+	padding: 0;
+}
+
+.container2 img {
+	width: 100%;
+	height: 10%;
+	padding: 0;
+}
+
+/* This styles the button and decides where in the container image that it will sit.
+I have several types of containers and several buttons with different positioning data
+I probably could have combined the 2 types of container into 1 but it's too late at 
+this point */
+
+.container .btn {
+	position: absolute;
+	top: 70%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #3A73C1;
+	color: #EEE5E9;
+	padding: 1em;
+	border: 0.25em solid #383D3B;
+
+}
+
+.container .btnlast {
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #3A73C1;
+	color: #EEE5E9;
+	padding: 1em;
+	border: 0.25em solid #383D3B;
+
+}
+
+.container2 .btn2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #3A73C1;
+	color: #EEE5E9;
+	padding: 1em;
+	border: 0.25em solid #383D3B;
+
+}
+
+.container2 .btn3 {
+	position: absolute;
+	top: 50%;
+	left: 60%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #3A73C1;
+	color: #EEE5E9;
+	padding: 1em;
+	border: 0.25em solid #383D3B;
+}
+
+.container2 .btn4 {
+	position: absolute;
+	top: 50%;
+	left: 80%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #3A73C1;
+	color: #EEE5E9;
+	padding: 1em;
+	border: 0.25em solid #383D3B;
+}
+
+.container2 .btn5 {
+	position: absolute;
+	top: 50%;
+	left: 65%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #383D3B;
+	color: #EEE5E9;
+	padding: 1em;
+	border: 0.25em solid #EEE5E9;
+}
+
+.container2 .btn6 {
+	position: absolute;
+	top: 50%;
+	left: 35%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #383D3B;
+	color: #EEE5E9;
+	padding: 1em;
+	border: 0.25em solid #EEE5E9;
+}
+
+.container .btn:hover {
+	background-color: #383D3B ;
+}
+
+.container2 .btn2:hover {
+	background-color: #383D3B ;
+}
+
+.container2 .btn3:hover {
+	background-color: #383D3B ;
+}
+.container2 .btn4:hover {
+	background-color: #383D3B ;
+}
+.container2 .btn5:hover {
+	background-color: #EEE5E9 ;
+	color: #383D3B ;
+}
+
+.container2 .btn6:hover {
+	background-color: #EEE5E9 ;
+	color: #383D3B ;
+}
+
+.container .btnlast:hover {
+	background-color: #383D3B ;
+}
+
+/* This section is interesting because it creates a could secondary classes
+ of div meant to be inside other divs. This allows me to place stuff next to
+ each other. I probably could ahve done this with flexboxes or something but
+ they scare me a bit so i just did this*/
+
+.rightside {
+    position : relative;
+    float: right;
+    text-align: left;
+    height   : 100%;
+    width    : 74%;
+}
+
+.leftside {
+    position : relative;
+    float: left;
+    height: 100%;
+    width    : 24%;
+}
+
+.rightside2 {
+    position : relative;
+    float: right;
+    text-align: left;
+    height   : 100%;
+    width    : 45%;
+}
+
+.leftside2 {
+    position : relative;
+    float: left;
+    height: 100%;
+    width    : 45%;
+}
+
+/* These affect the styling of certain elements in the main type of div
+ I used (centercontent). It's meant to center most stuff for 
+ accessibility reasons mostly*/
+
+.centercontent h1{
+	margin: auto;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.centercontent h2{
+	margin: auto;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.centercontent p{
+	margin: auto;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.centerconent ul{
+	margin: auto;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.centerconent li{
+	margin: auto;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+/* possibly leftover from previous code? IDK but not deleting it*/
+
+#content{
+	overflow: auto;
+	height: 100%;}
+
+#nav. #feature. #footer{
+	margin: 1%;}
+
+
+
+

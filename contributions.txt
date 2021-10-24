@@ -1,0 +1,41 @@
+This is a list of contributions to the project:
+
+Overview:
+While Zach did a lot of less intensive work with a lot of html pages,
+McElderry did a lot more intensive css and js on the menu page and pulled
+an all nighter on Friday with actually no sleep (caffeine was involved)
+
+
+PAGES:
+
+Zach East:
+-All Html pages except defaultmenu.html
+-StyleSheet.css
+-blog.js
+
+McElderry:
+-defaultMenu.html
+-mainMenu.css
+-script.js
+
+TASKS:
+
+Zach East:
+-1) Visit NCFDining page to know where it is located on campus, all food locations available and hours open
+-2) Find details about meal plans
+-3) Learn about exciting new events happening at NCF dining, feature dishes for the week, sustainability goals, COVID dining policies etc
+-4) Find out more about Metz on social media
+-8) Find coffee options on campus (There are none/coffee machines) 
+
+-10) Open this website on a browser on a tablet and a laptop 
+-11) Create a food profile
+-12 Find out about the NCF food pantry 
+-13) Provide easy feedback to Metz about dining experience 
+-14) A student run food blog space - allowing users to post stories about their food journeys/experiences at student life events etc related to food.
+-15) A footer banner which has your group name - says it's NCF class project (Probably can’t drop) (ZACH)
+
+
+McElderry:
+-5) Browse menu for the week, be able to see what is available today, tomorrow and for this week
+-6) Be able to see picture of the food, calories and nutritional info 
+-10) Open this website on a browser on a tablet and a laptop
